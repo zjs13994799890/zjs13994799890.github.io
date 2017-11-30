@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--通过js 来实现一个学生点名系统，要求如下：-->
+    <!--在表格中显示 学生列表 -->
+    <!--点击点名按钮 可以随机获取 一名学生，并在列表中标记 这个学生以被点名-->
+    <!--再次点击点名 按钮不会点到 已经点过的学生，-->
+    <!--点击重置按钮 取消所有学生 已经点名的标记。-->
+
+<div id="text">人名</div>
+<a href="#" id="btn">随机点名</a>
+<script>
+    var xName = ["小米", "笑脸", "小亮"];
+
+    var btn = document.querySelector("#btn");
+    var text = document.querySelector("#text");
+    var o = true;
+    var t;
+    btn.onclick = function () {
+
+        if (o) {
+            t = setInterval(function () {
+                var ran = Math.floor(Math.random() * xName.length);
+                text.innerHTML = xName[ran];
+            }, 50);
+            o = false;
+        } else {
+            o = true;
+            clearInterval(t);
+        }
+    }
+
+</script>
+</body>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
