@@ -95,28 +95,25 @@ body {
     margin-top:20px;
 }
 .footer{
-    color:#01b3a3;
-    position: relative;
-    top:85%;
-}
-.footer p:nth-of-type(1){
-    margin-bottom: 10px;
+    color:#00d7b2;
     position:absolute;
-    bottom:20px;
-    margin-left:35%;
+    width: 100%;
+    bottom:0;
 }
 .footer p:nth-of-type(2){
-    position:absolute;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.s1 .footer img{
+   position: relative;
+    height: 70px;
     bottom:0;
-    margin-left:18%;
 }
 .s1 .footer img:nth-of-type(1){
-    height: 100px;
-    position: absolute;
-    right:-89px;
+    left:0;
 }
 .s1 .footer img:nth-of-type(2){
-    height: 100px;
     position: absolute;
-    left:-200px;
+    left:-95px;
 }
