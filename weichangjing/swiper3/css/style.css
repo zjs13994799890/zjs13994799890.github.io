@@ -65,18 +65,48 @@ body {
     left: 20%;
 }
 
+.main{
+    position:absolute;
+    top:30%
+}
 .s1 .main img:nth-of-type(1){
     width: 160px;
-    position: absolute;
-    top: 200px;
-    left: 123px;
+    margin-left:23px;
 }
 .s1 .main img:nth-of-type(2){
     width:75%;
-    position: absolute;
-    top: 263px;
-    left: 61px;
+    margin-left:23px;
 }
 .img9{
+    color:#fff;
     background:url("../img/9.png");
+    background-size: 100%;
+    height: 23px;
+    width: 200px;
+    margin-left:27%;
+}
+.footer{
+    color:#01b3a3;
+    position: relative;
+    top:85%;
+}
+.footer p:nth-of-type(1){
+    position:absolute;
+    bottom:20px;
+    margin-left:35%;
+}
+.footer p:nth-of-type(2){
+    position:absolute;
+    bottom:0;
+    margin-left:18%;
+}
+.s1 .footer img:nth-of-type(1){
+    height: 100px;
+    position: absolute;
+    right:-89px;
+}
+.s1 .footer img:nth-of-type(2){
+    height: 100px;
+    position: absolute;
+    left:-200px;
 }
