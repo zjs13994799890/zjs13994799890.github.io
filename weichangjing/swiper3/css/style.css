@@ -31,6 +31,7 @@ body {
     bottom:2%;
     margin-left:-13.5px;
     transform: rotate(90deg);
+    animation: flash infinite;
 }
 
 /*s1第一屏样式*/
@@ -44,30 +45,38 @@ body {
     position: absolute;
     top: 120px;
     left: 50px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position: absolute;
     top: 90px;
     right: 40px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
     position: absolute;
     bottom: 180px;
     left: 35px;
+    animation: swing infinite;
+
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position: absolute;
     right: 50px;
     bottom: 200px;
+
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(5){
     width:68%;
     position: absolute;
     top: 25%;
     left: 16%;
+
+    animation: pulse infinite;
 }
 
 .main{
