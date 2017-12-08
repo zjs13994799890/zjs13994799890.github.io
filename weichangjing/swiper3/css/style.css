@@ -142,6 +142,9 @@ body {
     top: 12%;
     position: relative;
 }
+.s2 h2 span{
+    display: block;
+}
 .s2 small{
     display: block;
     margin-top: 10px;
@@ -159,7 +162,7 @@ body {
     background:url("../img/14.png");
     margin-right:20px;
     background-size:contain;
-    margin-left:-95px;
+    margin-left:-150px;
     margin-top:10px;
 }
 .s2 h2::after{
@@ -208,3 +211,85 @@ body {
     left: 50%;
     margin-left:-60px;
 }
+/*第3屏*/
+
+.s3{
+    background:url("../img/bj.png");
+    height: 100%;
+    color:#00f8ca;
+}
+.s3 h2{
+    font-size:26px;
+    top: 12%;
+    position: relative;
+}
+.s3 h2 span{
+    display: block;
+}
+.s3 small{
+    display: block;
+    margin-top: 10px;
+    font-size:14px;
+    letter-spacing:5px;
+}
+.s3 h2:before,.s3 h2:after{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s3 h2::before{
+    background:url("../img/14.png");
+    margin-right:20px;
+    background-size:contain;
+    margin-left:-150px;
+    margin-top:10px;
+}
+.s3 h2::after{
+    background:url("../img/13.png");
+    background-size:contain;
+    margin-right:20px;
+    margin-left:70px;
+    margin-top:10px;
+    top: 0;
+}
+
+.s3 ul li{
+    color:#00f8ca;text-align: center;
+}
+.s3 ul :nth-of-type(1),.s3 ul :nth-of-type(2),.s3 ul :nth-of-type(3),.s3 ul :nth-of-type(7),.s3 ul :nth-of-type(5),.s3 ul :nth-of-type(6){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 0.9;
+    line-height: 80px;
+    font-weight: bold;
+
+
+    background: radial-gradient(#000,#00f8ca);
+
+    position: absolute;
+}
+
+.s3 ul :nth-of-type(4){
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    opacity: 0.9;
+    line-height: 130px;
+    font-weight: bold;
+
+    background: radial-gradient(#000,#00f8ca);
+
+    position: absolute;
+    top:40%;
+    left:35%;
+}
+
+.s3 ul :nth-of-type(1){
+    left:20px;
+    top: 40px;
+}
+
+
