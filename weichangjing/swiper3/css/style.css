@@ -30,8 +30,21 @@ body {
     top:auto;
     bottom:2%;
     margin-left:-13.5px;
-    transform: rotate(90deg);
-    animation: flash infinite;
+    transform: rotate(-90deg);
+
+    width: 24px;
+    height: 30px;
+    animation:buttonext 1.6s infinite;
+}
+@keyframes buttonext {
+    form{
+       bottom:3%;
+       opacity: 1;
+    }
+    to{
+        bottom:6%;
+        opacity: 0;
+    }
 }
 
 
@@ -168,6 +181,12 @@ body {
     position: absolute;
     left:-55px;
 }
+
+
+.swing {
+    transform-origin:center;
+}
+
 
 
 
@@ -363,3 +382,123 @@ body {
     bottom: 9%;
 }
 
+
+
+.s4{
+    background:url("../img/bj.png");
+    height: 100%;
+    color:#00f8ca;
+}
+.s4 h2{
+    font-size:26px;
+    top: 12%;
+    position: relative;
+}
+.s4 h2 span{
+    display: block;
+}
+.s4 small{
+    display: block;
+    margin-top: 10px;
+    font-size:14px;
+    letter-spacing:5px;
+}
+.s4 h2:before,.s4 h2:after{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s4 h2::before{
+    background:url("../img/14.png");
+    margin-right:20px;
+    background-size:contain;
+    margin-left:-150px;
+    margin-top:10px;
+}
+.s4 h2::after{
+    background:url("../img/13.png");
+    background-size:contain;
+    margin-right:20px;
+    margin-left:70px;
+    margin-top:10px;
+    top: 0;
+}
+
+.s4 div img{
+    width:100%;
+    position:absolute;
+    right:0;
+}
+#s4{
+    position:absolute;
+    top:25%;
+    width:80%;
+    height: 380px;
+    left:50%;
+    margin-left: -40%;
+}
+
+.b1 h3,.b2 h3,.b3 h3{
+    display: table;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;
+}
+.b1 p{
+    width: 180px;
+    height: 20px;
+    background: -webkit-linear-gradient(left,#04142b,#26f9b2);
+    display: table;
+    float:left;
+    margin-left:50px;
+}
+.b1 span{
+    float:left;
+}
+.b1::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.b2 p{
+    width: 180px;
+    height: 20px;
+    background: -webkit-linear-gradient(left,#04142b,#26f9b2);
+    display: table;
+    float:left;
+    margin-left:50px;
+}
+.b2 span{
+    float:left;
+}
+.b2::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.b3 p{
+    width: 180px;
+    height: 20px;
+    background: -webkit-linear-gradient(left,#04142b,#26f9b2);
+    display: table;
+    float:left;
+    margin-left:50px;
+}
+.b3 span{
+    float:left;
+}
+.b3::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.s4 h4{
+    width: 240px;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 20px;
+}
