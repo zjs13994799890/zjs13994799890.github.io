@@ -83,7 +83,7 @@ body {
 }
 
 /*第一屏养样式*/
-.s1 .img3{
+.s1 .img3,.s2 .img3{
    position: absolute;
     left: 0;
     top: 0;
@@ -158,4 +158,25 @@ body {
 .s2 h2 p{
     color:#fff;
     font-size:14px;
+}
+.s2 .title .img4{
+    position: absolute;
+    top: 23%;
+    left: -2%;
+    width: 400px;
+    height: 550px;
+}
+.s2 .title .img5{
+    position: absolute;
+    top: 27%;
+    left: 21%;
+    width: 50px;
+    height: 50px;
+}
+.s2 .title .img6{
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
 }
