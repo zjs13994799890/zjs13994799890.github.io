@@ -83,7 +83,7 @@ body {
 }
 
 /*第一屏养样式*/
-.s1 .img3,.s2 .img3,.s3 .img3,.s4 .img3,.s5 .img3{
+.s1 .img3,.s2 .img3,.s3 .img3,.s4 .img3,.s5 .img3,.s6 .img3{
    position: absolute;
     left: 0;
     top: 0;
@@ -297,4 +297,87 @@ body {
 .s5 h2 p{
     color:#fff;
     font-size:14px;
+}
+.s5 .title{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left:8%;
+}
+.s5 .title div{
+    width: 45%;
+    float:left;
+    margin-left:5%;
+    margin-top:5%;
+}
+.s5 .title img{
+    width: 100%;
+    height:20%;
+}
+.s5 .title p{
+    color:#fff;
+    font-size:16px;
+    margin-top:5%;
+}
+/*第6屏*/
+.s6 .s61{
+    width: 30%;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    transform: rotate(90deg);
+}
+.s6 h2 img{
+    width: 20%;
+    height: 10%;
+}
+.s6 h2:nth-of-type(1){
+    position: absolute;
+    top: 10%;
+}
+.s6 h2 p{
+    color:#fff;
+    font-size:20px;
+}
+
+
+.s6 .title{
+    position:absolute;
+    width: 80%;
+    height: 57%;
+    top:23%;
+    left:50%;
+    margin-left: -40%;
+    border-left:0;
+}
+.s6 .title img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left: 0;
+}
+.s6 .title form{
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.s6 .title form input{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border:1px solid #00fd9d;
+    background:#fff;
+}
+.s6 .title form input:nth-of-type(4){
+    background-color:#00f2ca;
+    color:#fff;
+}
+.s6 .title p:nth-of-type(1){
+    margin-top: 15px;
+}
+.s6 .title p{
+    color:#fff;
 }
