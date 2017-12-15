@@ -83,7 +83,7 @@ body {
 }
 
 /*第一屏养样式*/
-.s1 .img3,.s2 .img3,.s3 .img3{
+.s1 .img3,.s2 .img3,.s3 .img3,.s4 .img3,.s5 .img3{
    position: absolute;
     left: 0;
     top: 0;
@@ -231,4 +231,70 @@ body {
     color:#fff;
     font-size:16px;
     margin-top:5%;
+}
+
+/*第四屏*/
+.s4 .s2img1{
+    width: 20%;
+    position: absolute;
+    top:4%;
+    left: 12%;
+}
+.s4 .s2img2{
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    right: 12%;
+}
+.s4 h2 span{
+    display: inline-block;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 28px;
+}
+.s4 h2 p{
+    color:#fff;
+    font-size:14px;
+}
+
+.s4 .title p{
+    display: table;
+    line-height:24px;
+    color:#e4e4c0;
+}
+.s4 .title{
+    width: 80%;
+    margin:auto;
+    margin-top:20%;
+}
+.s4 .p1,.s4 .p2,.s4 .p3{
+    float:right;
+    margin-top:20px;
+    margin-right:10%;
+    position: absolute;
+    right:0;
+}
+
+/*第五屏*/
+.s5 .s2img1{
+    width: 20%;
+    position: absolute;
+    top:4%;
+    left: 12%;
+}
+.s5 .s2img2{
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    right: 12%;
+}
+.s5 h2 span{
+    display: inline-block;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 28px;
+}
+.s5 h2 p{
+    color:#fff;
+    font-size:14px;
 }
