@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>手机天猫店铺首页</title>
+    <meta name="description" content="中礼鲜花速递旗舰店是由品牌官方企业运营或授权的官网旗舰店，所有商品保证正品无假货。中礼鲜花速递旗舰店宝贝与描述相符评分为4.7分，比同行业平均水平低1.91%，卖家的服务态度评分为4.7分，比同行业平均水平低1.76%，物流服务的质量评分为4.7分，比同行业平均水平低1.07%。">
+    <meta name="keywords" content="中礼鲜花速递旗舰店">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="bitbug_favicon.ico" />
+    <!-- CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body class="home">
+
+    <div class="nav">
+        <img src="img/logo.jpg" alt="">
+        <p>中礼鲜花速递旗舰店</p>
+
+    </div>
+
+    <div class="nav-bottom">
+        <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+               <h5><img src="img/nav1.jpg" alt=""></h5>
+                <p style="color:red;">首页</p>
+            </div>
+            <a href="list.html">
+                <div class="col-xs-3">
+                    <h5><img src="img/nav2.jpg" alt=""></h5>
+                     <p>全部商品</p>
+                </div>
+            </a>
+            <div class="col-xs-3">
+               <h5><img src="img/nav3.jpg" alt=""></h5>
+                <p>上新</p>
+            </div>
+            <div class="col-xs-3">
+                <h5><img src="img/nav4.jpg" alt=""></h5>
+                <p>店铺活动</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div>
+            <img src="img/download.webp" alt="">
+            <img src="img/download1.webp" alt="">
+            <img src="img/download2.webp" alt="">
+            <img src="img/download3.webp" alt="">
+            <img src="img/download4.webp" alt="">
+            <img src="img/download5.webp" alt="">
+            <img src="img/download6.webp" alt="">
+            <img src="img/download7.webp" alt="">
+            <img src="img/download8.webp" alt="">
+        </div>
+
+        <div class="con">
+
+            <div id="app">
+                <h2>--为您推荐--</h2>
+                <ul>
+                    <my-li v-for="life in lifes" v-bind="life"></my-li>
+                </ul>
+                <h3><a href="list.html">查看全部商品</a></h3>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>登录</li>
+                <li>天猫首页</li>
+                <li class="li3">下载客户端</li>
+            </ul>
+            <p>© 2003-2017 Tmall.com 版权所有</p>
+        </div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">宝贝分类</div>
+                    <div class="col-xs-4">热卖鲜花</div>
+                    <div class="col-xs-4">在线客服</div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
