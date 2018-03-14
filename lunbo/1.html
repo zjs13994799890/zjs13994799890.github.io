@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            list-style:none;
+        }
+        #clear{clear: both;}
+        #main{
+            width: 100%;
+        }
+        #main_top{
+            width: 1225px;
+            margin:0 auto;
+            margin-top:20px;
+        }
+        .cuo{
+            float:right;
+            position:absolute;
+            top:30px;
+            right:90px;
+            color:red;
+            font-size:30px;
+        }
+
+        #main2{
+            width:1225px;
+            height: 40px;
+            background:red;
+            margin:0 auto;
+        }
+        #main2 ul{
+            list-style:none;
+            text-align:center;
+        }
+        #main2 ul li{
+            float:left;
+            margin-left:18px;
+            margin-top:12px;
+        }
+        #main ul li a{
+            width:75px;
+            color:#000;
+            padding:13px 20px 12px 20px;
+            font-size:16px;
+        }
+
+        /*轮播*/
+        #lun{
+            margin-top:20px;
+            text-align: center;
+            height: 446px;
+            overflow: hidden;
+            position:relative;
+        }
+        #lun>ul>li{
+            display: none;
+        }
+        #lun ul .active{
+            display:block;
+        }
+         #num_list{
+            width: 100%;
+            height: 50px;
+            position:absolute;
+            bottom:0;
+             opacity: 0.5;
+        }
+        #num_list li{
+            display:inline-block;
+            height:30px;
+            line-height:30px;
+        }
+        #num_list li span{
+            width: 20px;
+            height: 20px;
+            color:white;
+            text-align: center;
+            line-height: 20px;
+            border-radius:70%;
+            display: block;
+            background: black;
+            margin-top:5px;
+            margin-right:5px;
+        }
+        #lun #num_list li .active_num{
+            background:red;
+        }
+
+        #main_bottom{
+            width: 1225px;
+            height: 370px;
+            background: #ffdff5;
+            margin:0 auto;
+            margin-top:20px;
+        }
+        .txt1{
+            font-size:40px;
+            color:red;
+        }
+        button{
+            width: 30px;
+            height: 30px;
+        }
+        #main_bottom td{
+            text-align:center;
+            font-size:18px;
+        }
+        #main_bottom .heji{
+            font-size:30px;
+        }
+        #main_txt{
+            padding-top:25px;
+            padding-left:50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+
+        <div id="main_top">
+            <img src="img/top.png">
+            <div class="cuo" onclick="hide()">X</div>
+        </div>
+        <div id="clear"></div>
+        <div id="main2">
+            <ul>
+                <li><a href="#" id="nav" onmouseover="chg1()" onmouseout="chg2()">电脑办公</a></li>
+                <li><a href="#" id="nav1" onmouseover="chg3()" onmouseout="chg4()">生活电器</a></li>
+                <li><a href="#" id="nav2" onmouseover="chg5()" onmouseout="chg6()">手机通讯</a></li>
+                <li><a href="#" id="nav3" onmouseover="chg7()" onmouseout="chg8()">大家电</a></li>
+                <li><a href="#" id="nav4" onmouseover="chg9()" onmouseout="chg10()">智能数码</a></li>
+                <li><a href="#" id="nav5" onmouseover="chg11()" onmouseout="chg12()">饮料酒水</a></li>
+                <li><a href="#" id="nav6" onmouseover="chg13()" onmouseout="chg14()">家具假装</a></li>
+                <li><a href="#" id="nav7" onmouseover="chg15()" onmouseout="chg16()">母婴童装</a></li>
+                <li><a href="#" id="nav8" onmouseover="chg17()" onmouseout="chg18()">食品生鲜</a></li>
+                <li><a href="#" id="nav9" onmouseover="chg19()" onmouseout="chg20()">个胡家庆</a></li>
+            </ul>
+        </div>
+
+
+            <!--轮播-->
+            <div id="lun">
+                <ul>
+
+                    <li class="active" id="a">
+                        <img src="img/banner1.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="img/banner2.jpg" alt="">
+                    </li>
+
+                </ul>
+
+                <div id="num_list">
+                    <ul>
+                        <li>
+                            <span class="active_num">1</span>
+                        </li>
+                        <li>
+                            <span num="1">2</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+<!--轮播-->
+            <div id="main_bottom">
+                <div id="main_txt">
+                <table  cellspacing="0" width="1000px" cellpadding="10" style="padding-left:50px;">
+                <thead>
+                <tr>
+                    <th>商品</th>
+                    <th>描述</th>
+                    <th>单价</th>
+                    <th style="width: 100px;">数量</th>
+                    <th>小计</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td><img src="img/product01.png" alt=""></td>
+                    <td>华为HUAWEInova青春版4GB+64GB莺语粉移动联通电信4g</td>
+                    <td>&yen;1789</td>
+                    <td>
+                        <button onclick="calc(this)">+</button>
+                        <span>1</span>
+                        <button onclick="calc(this)">-</button>
+                    </td>
+                    <td>&yen;1789</td>
+                </tr>
+                <tr>
+                    <td><img src="img/product02.png" alt=""></td>
+                    <td>VIVO y55全网通2gb+16gb地洞联通电信4g手机双卡双待 玫瑰金</td>
+                    <td>&yen;1999</td>
+                    <td>
+                        <button onclick="calc(this)">+</button>
+                        <span>1</span>
+                        <button onclick="calc(this)">-</button>
+                    </td>
+                    <td>&yen;1999</td>
+                </tr>
+                <tr>
+                    <td><img src="img/product03.png" alt=""></td>
+                    <td>vivo Y67 4GB+32GB移动联通电信4G手机双卡双待Y67S玫瑰金</td>
+                    <td>&yen;2199</td>
+                    <td>
+                        <button onclick="calc(this)">+</button>
+                        <span>1</span>
+                        <button onclick="calc(this)">-</button>
+                    </td>
+                    <td>&yen;2199</td>
+                </tr>
+                    <tfoot>
+                    <tr>
+                        <td colspan="4" class="heji">合计</td>
+                        <td class="txt1" style="font-size:30px;">&yen;5987</td>
+                    </tr>
+                    </tfoot>
+                </tbody>
+                </table>
+                </div>
+            </div>
+    </div>
+
+
+    <script>
+        var img=document.getElementById("main_top");
+        function hide(){
+            img.style.opacity="0";
+        }
+
+        var a=document.getElementById("nav");
+        function chg1(){
+            a.style.background="#fff";
+        }function chg2(){
+            a.style.background="";
+        }
+        var a1=document.getElementById("nav1");
+        function chg3(){
+            a1.style.background="#fff";
+        }function chg4(){
+            a1.style.background="";
+        }
+        var a2=document.getElementById("nav2");
+        function chg5(){
+            a2.style.background="#fff";
+        }function chg6(){
+            a2.style.background="";
+        }
+        var a3=document.getElementById("nav3");
+        function chg7(){
+            a3.style.background="#fff";
+        }function chg8(){
+            a3.style.background="";
+        }
+        var a4=document.getElementById("nav4");
+        function chg9(){
+            a4.style.background="#fff";
+        }function chg10(){
+            a4.style.background="";
+        }
+        var a5=document.getElementById("nav5");
+        function chg11(){
+            a5.style.background="#fff";
+        }function chg12(){
+            a5.style.background="";
+        }
+        var a6=document.getElementById("nav6");
+        function chg13(){
+            a6.style.background="#fff";
+        }function chg14(){
+            a6.style.background="";
+        }
+        var a7=document.getElementById("nav7");
+        function chg15(){
+            a7.style.background="#fff";
+        }function chg16(){
+            a7.style.background="";
+        }
+        var a8=document.getElementById("nav8");
+        function chg17(){
+            a8.style.background="#fff";
+        }function chg18(){
+            a8.style.background="";
+        }
+        var a9=document.getElementById("nav9");
+        function chg19(){
+            a9.style.background="#fff";
+        }function chg20(){
+            a9.style.background="";
+        }
+
+
+        function calc(btn){
+            var span=btn.parentElement.querySelector("span");
+            var n=parseInt(span.innerHTML);
+            if(btn.innerHTML=="+"){
+                n++;
+            }else if(n>1){
+                n--;
+            }else{
+                n=1;
+            }
+            span.innerHTML=n;
+            var price=btn.parentElement.previousElementSibling.innerHTML.slice(1);
+            var subtotal=price*n;
+            btn.parentElement.nextElementSibling.innerHTML="&yen;"+subtotal.toFixed(2);
+
+            var tds=document.querySelectorAll("tbody tr td:last-child");
+            for(var i= 0,total=0;i<tds.length;i++){
+                total+=parseFloat(tds[i].innerHTML.slice(1));
+            }
+            document
+                .querySelector("tfoot tr td:last-child")
+                .innerHTML="&yen;"+total.toFixed(2)
+        }
+
+
+
+
+
+
+        var lis=document.getElementById("lun").firstElementChild.children;
+        var num_list=document.getElementById("num_list").firstElementChild.children;
+        var lun=document.getElementById("lun");
+        var i=0;
+        var timer;
+        function run(){
+            timer=setInterval(function(){
+                lis[i].removeAttribute("class");
+                num_list[i].firstElementChild.removeAttribute("class");
+
+                lis[i].removeAttribute("class");
+                num_list[i].firstElementChild.removeAttribute("class");
+                i++;
+                if(i>=lis.length){
+                    i=0;
+                }
+                lis[i].setAttribute("class","active");
+                num_list[i].firstElementChild.setAttribute("class","active_num")
+            },1500);
+        }
+        run();
+        lun.onmouseover=function(){
+            clearInterval(timer);
+        };
+        lun.onmouseout=function(){
+            run();
+            for(var j=0;j<num_list.length;j++){
+                num_list[j].firstElementChild.setAttribute("num",j);
+                num_list[j].onmouseover=function(){
+                    lis[i].removeAttribute("class");
+                    num_list[i].firstElementChild.removeAttribute("class")
+                    clearInterval(timer);
+                    i=this.firstElementChild.getAttribute("num")
+                    lis[i].setAttribute("class","active")
+                    num_list[i].firstElementChild.setAttribute("class","active_num")
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
