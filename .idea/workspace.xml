@@ -1,110 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afa3dd8-078f-415f-a2fa-b10419c8f01e" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/start.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/bitbug_favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/css/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/gulptask.lnk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/123.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/1234.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/59756c16N25198c49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/59e7fed2Nee0ab755 (1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/59e7fed2Nee0ab755.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/5a127272Nac499894.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/5a1273edNc872691c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/5a127bd4N00eac15b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/5a30dec1N54772ec1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/5a372edeN8d40a12a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/biao1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/biao2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/biao3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download1.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download2.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download3.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download4.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download5.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download6.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download7.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/download8.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/item2.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/logo.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/nav1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/nav2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/nav3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/nav4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/img/top.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/jq/jquery-1.7.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/js/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/js/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/_style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/common/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/common/_initialization.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/common/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/common/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/common/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/layouts/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/layouts/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/layouts/_more.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/layouts/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/scss/scss.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/shop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhonglixianhua-master/新建文本文档.txt" afterPath="" />
-    </list>
+    <list default="true" id="1afa3dd8-078f-415f-a2fa-b10419c8f01e" name="默认的" comment="" />
     <ignored path="zjs13994799890.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="130">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -312,11 +209,12 @@
       <workItem from="1520326930130" duration="509000" />
       <workItem from="1520328426190" duration="95000" />
       <workItem from="1520401244795" duration="2871000" />
+      <workItem from="1520988463296" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3475000" />
+    <option name="totallyTimeSpent" value="3492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -368,6 +266,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -385,22 +299,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/index.html" />
-    <entry file="file://$PROJECT_DIR$/zhonglixianhua-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zhonglixianhua-master/index.html" />
+    <entry file="file://$PROJECT_DIR$/.idea/style.css" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -411,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="130">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
